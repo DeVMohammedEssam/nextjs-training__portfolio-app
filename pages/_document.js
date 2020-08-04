@@ -19,7 +19,7 @@ export class MyDocument extends Document {
           <NextScript />
         </body>
 
-        <style global jsx>{`
+        <style global="true">{`
           body {
             font-family: "Roboto", sans-serif;
             padding: 0;
