@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Mohamed Essam\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init --y
+
+PATH: 
+  C:\Users\Mohamed Essam\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mohamed Essam\bin;C:\Python27;C:\Python27\Scripts;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Program Files\PuTTY;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs;C:\Program Files\Git LFS;C:\Users\Mohamed Essam\Anaconda3;C:\Users\Mohamed Essam\Anaconda3\Library\mingw-w64\bin;C:\Users\Mohamed Essam\Anaconda3\Library\usr\bin;C:\Users\Mohamed Essam\Anaconda3\Library\bin;C:\Users\Mohamed Essam\Anaconda3\Scripts;C:\Users\Mohamed Essam\AppData\Local\Microsoft\WindowsApps;C:\Users\Mohamed Essam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mohamed Essam\Desktop\win32_executable;C:\Users\Mohamed Essam\AppData\Local\Android\Sdk\emulator;C:\Users\Mohamed Essam\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\heroku\bin;C:\Users\Mohamed Essam\mongodb\bin;C:\Users\Mohamed Essam\AppData\Roaming\npm;C:\Users\Mohamed Essam\AppData\Local\atom\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.21.0
+
+Node version: 
+  12.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\Mohamed Essam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96713:59)
+      at Object.<anonymous> (C:\Users\Mohamed Essam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89024:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Mohamed Essam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\Mohamed Essam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
