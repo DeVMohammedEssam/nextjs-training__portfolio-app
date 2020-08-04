@@ -14,23 +14,26 @@ const PostItem = ({ title = "", id, slug = "", body }) => {
 };
 const Blog = ({ posts = [] }) => {
   return (
-    <ul>
-      {posts.map(post => {
-        const title = post.title.split(" ") || "";
-        return (
-          <>
-            <PostItem
-              key={post.id}
-              id={post.id}
-              title={post.title}
-              body={post.body}
-              slug={title[0] + "-" + title[1]}
-            />
-            <br />
-          </>
-        );
-      })}
-    </ul>
+    <>
+      <h4> Posts </h4>
+      <ul>
+        {posts.map(post => {
+          const title = post.title.split(" ") || "";
+          return (
+            <>
+              <PostItem
+                key={post.id}
+                id={post.id}
+                title={post.title}
+                body={post.body}
+                slug={title[0] + "-" + title[1]}
+              />
+              <br />
+            </>
+          );
+        })}
+      </ul>
+    </>
   );
 };
 

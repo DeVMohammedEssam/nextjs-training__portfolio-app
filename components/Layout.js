@@ -30,6 +30,9 @@ const Layout = ({ children, title }) => {
         <Link href="/hireme">
           <a>Hireme</a>
         </Link>
+        <Link href="/blog">
+          <a>Blog</a>
+        </Link>
       </header>
       <main className="layout__content">
         <h1 className="layout__title">{title}</h1>
